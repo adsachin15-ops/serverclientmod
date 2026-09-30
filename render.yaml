@@ -2,7 +2,7 @@ services:
   - type: web
     name: filedrop
     env: node
-    buildCommand: "npm install -g corepack && corepack enable && cd client && corepack npm install && corepack npm run build && cd ../server && corepack npm install"
+    buildCommand: "cd client && npm install --include=dev && npm run build && cd ../server && npm install"
     startCommand: "cd server && node server.js"
     envVars:
       - key: NODE_ENV
