@@ -1,0 +1,8 @@
+/* Base reset — all styling is in App.jsx */
+@import "tailwindcss";
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

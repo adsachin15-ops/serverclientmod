@@ -1,0 +1,13 @@
+{
+  "name": "filedrop",
+  "version": "1.0.0",
+  "description": "FileDrop - Peer-to-peer file sharing and real-time chat",
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ../server && npm install",
+    "start": "cd server && npm start"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "packageManager": "npm@12.1.0+sha1.b1a65ce40c1fb696b13349c56139aeac4fb7b9ab"
+}
